@@ -1,0 +1,437 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Art Garden</title>
+	<style type="text/css">
+	@font-face {
+    font-family: GardenArt;
+    src: url(MathildeCastleland.ttf);
+}
+	body{
+		margin: 0;
+		padding: 0;
+		 background-image: url(body.jpg); 
+		/* font-family:"Comic Sans MS"; */
+
+	}
+	div{
+		display: block;
+	}
+	.wrapper{
+	width: 772px;
+    margin: 0 auto;
+    padding: 0 0px;
+    position: relative;
+    text-align: left;
+    background-color: white;
+	}
+	.main-section{
+		height: 667px; 
+		background-image: url(el.jpg) ;
+		background-size: 772px 667px;
+		background-repeat: repeat;
+		font-family:"Comic Sans MS";
+		}
+	.main-section h1{
+		font-size: 80px;
+		text-align: center;
+		font-family: GardenArt;
+	}
+	.about-left-vertical{
+		position: relative;
+		display: inline-block;
+		height: 667px;
+		vertical-align: middle;
+		width: 50%;
+		background-image: url(tumblr_mbln3ehI4a1r251tno1_1280.jpg);
+		background-size: 386px 667px;
+		font-family:"Comic Sans MS";
+	}
+	.about-left-vertical h1{
+		font-size: 36px;
+		text-align: center;
+		}
+	.about-right-vertical{
+		display: inline-block;
+		height: 667px;
+		vertical-align: middle;
+		font-family:"Comic Sans MS";
+	}
+	.products{
+		position: relative;
+		display: inline-block;
+		height: 667px;
+		width: 100%;
+		font-family:"Comic Sans MS";
+		background-color: white;
+	}
+	.products h1{
+		font-size: 36px;
+		text-align: center;
+			}
+	.products ul li a{
+		color:black;
+		text-decoration: none;
+	}
+	.partners-left-vertical{
+		position: relative;
+		display: inline-block;
+		height: 667px;
+		vertical-align: middle;
+		width: 50%;
+		background-image: url(tumblr_mbln3ehI4a1r251tno1_1280.jpg);
+		background-size: 386px 667px;
+		font-family:"Comic Sans MS";
+	}
+	.partners-right-vertical{
+		display: inline-block;
+		height: 667px;
+		vertical-align: middle;
+		font-family:"Comic Sans MS"; 
+		font-size: 13px;
+
+	}
+	.partners-left-vertical h1{
+		font-size: 36px;
+		text-align: center;
+		
+	}
+	.contacts-right-vertical{
+		display: inline-block;
+		height: 667px;
+		vertical-align: middle;
+		font-family:"Comic Sans MS";
+	}
+	.contacts-left-vertical h1{
+		font-size: 36px;
+		text-align: center;
+	}
+
+	.contacts-left-vertical{
+		position: relative;
+		display: inline-block;
+		height: 667px;
+		vertical-align: middle;
+		width: 50%;
+		background-color: rgb(255, 229, 126);
+		font-family:"Comic Sans MS";
+	}
+	ul{
+		list-style-type: none;
+		padding: 0;
+		margin: 0;
+		text-align:  center;
+	}
+	nav li a{
+		color:black;
+		font-size: 20px;
+		text-decoration: none;
+	}
+	nav li
+	{
+		display: inline-block;
+		padding: 5px 10px;
+		position: relative;
+		border-right: 1px solid black;
+	}
+	nav li:last-of-type{
+		border-right: none;
+	}
+	.center{
+		margin-top: 280px;
+		margin-left: 18px;
+	}
+	#first-section-nav,#third-section-nav,#fourth-section-nav{
+		position: absolute;
+		bottom: 0;
+		left: 0;
+		right:0;
+	}
+	#second-section-nav{
+		position: absolute;
+		bottom: 0;
+	}
+	.circle{
+		border-radius: 50%;
+		border:1px solid black;
+
+	}
+	.circle-about{
+		height: 350px;
+		width: 350px;
+		background-image: url(flat,550x550,075,f.u2.jpg);
+		background-size: 350px 350px;
+	}
+	.circle-products-first-line li {
+		display: inline-block !important;
+		margin-top: 10px;
+		margin-bottom: 50px;
+		margin-right: 100px;
+
+	}
+	.circle-products-second-line li {
+		display: inline-block !important;
+		margin-bottom: 10px;
+		margin-left:100px;
+
+	}
+	.type1{
+		height: 190px;
+		width: 190px;
+		background-image: url(seeds.jpg);
+		background-size: 190px 190px;
+		background-repeat: no-repeat;
+		margin-right: 50px;
+		margin-left: 55px;
+
+	}
+	.type2{	
+		height: 190px;
+		width: 190px;
+		background-image: url(seedling.jpg);
+		background-size: 190px 190px;
+		background-repeat: no-repeat;
+		margin-right: 50px;
+		margin-left: 25px;
+	}
+	.type3{
+		height: 190px;
+		width: 190px;
+		background-image: url(equipment.png);
+		background-size: 190px 190px;
+		background-repeat: no-repeat;
+		margin-right: 50px;
+	}
+	.type4{	
+		height: 190px;
+		width: 190px;
+		background-image: url(consult.png);
+		background-size: 190px 190px;
+		background-repeat: no-repeat;}
+	.float-left-one{
+		float:left; 
+		padding-right: 5px;
+		padding-bottom: 5px;
+		width: 150px;
+		height: 200px;
+	} 
+	.float-left-two{
+		float:left; 
+		padding-right: 5px;
+		padding-bottom: 5px;
+		width: 250px;
+		height: 100px;
+	}
+	.history{
+		position: absolute;
+		width: 386px;
+		margin-top: 100px;
+	}
+	.histoty p{
+		margin:0;
+	}
+	.list-partners
+	{
+		position: absolute;
+		width: 50%;
+	}
+	.list-partners p
+	{
+		margin:0;
+	}
+	.clear{
+		clear:left;
+	}
+	hr{
+		margin:0;
+		border:1px solid black;
+	}
+	.message{
+		position: absolute;
+		width: 50%;
+	}
+	.email{
+	padding-bottom: 15px;
+	}
+	.textarea{
+		padding-bottom: 15px;
+	}
+	.adress{
+		border:1px solid black;
+		border-radius: 50px;
+		padding-top: 20px;
+		padding-left: 30px;
+		background-color: rgb(255, 255, 204);
+	}
+	.adress h2{
+		margin: 0;
+	}
+	.post_card{
+		height: 200px;
+		width: 300px;
+		display: block;
+		margin-right: 43px;
+		margin-left: 43px;
+		margin-bottom: 30px;
+		margin-top: 20px;
+
+	}
+	h3{
+		margin:0;
+		text-align: center;
+	}
+	</style>
+	
+</head>
+<body>
+<div class="wrapper">
+	<section class="main-section">
+	<header>
+		<h1>Garden Art</h1>
+	</header>
+	<nav id="main">
+		<ul>
+			<li><a href="#first">Нашата история</a></li>
+			<li><a href="#second">Услуги & Консумативи</a></li>
+			<li><a href="#tird">Партньори</a></li>
+			<li><a href="#fourth">Контакти</a></li>
+		</ul>
+	</nav>
+	</section>
+
+<section id="first" class="about">
+	<div class="about-left-vertical">
+		<h1>Нашата история</h1>
+		
+		<nav id="first-section-nav">
+		<ul>
+			<li><a href="#first">Нашата история</a></li>
+			<li><a href="#second">Услуги & Консумативи</a></li>
+			<li><a href="#tird">Партньори</a></li>
+			<li><a href="#fourth">Контакти</a></li>
+		</ul>
+	</nav>
+	</div>
+	<div class="about-right-vertical">
+	<div class="history">
+		<p><i>Garden Art</i> е най-добрият приятел на градинаря. Екипът на <i>  Garden Art</i> грижливо подбра най-надеждните и компетентни специалисти в областта на градинарството, защото знаем какво е да преследваш мечтата си. Градината не е само парче земя, която виждаш от прозореца си. Градината е свещена, тя е рай както за очите, така и за душата. Поколения градинари вече се доверяват на <i>Garden Art</i> , за да създадат своите мечтани градини. Ето защо екипът на  <i>  Garden Art </i> не може да си позволи грешки в това да Ви предлага само най-качественото в градинарството. Градината е многокомпонентна, затова сме се погрижили да Ви предоставим възможност да засадите най-добрите семена и разсади, да изберете подходящата техника за обработването й. Екипът ни се е погрижил и да осигури професионални консултанти, които да проектират мечтата Ви, както и да Ви напътстват как да се грижите и подобрявате градината си. </p>
+	</div>
+	</div>
+</section>
+
+<section id="second">
+	<div class="products">
+		<h1>Услуги & Консумативи</h1>
+		<ul class="circle-products-first-line">
+			<li>
+				<div class="circle type1">
+					
+				</div>
+				<a href="http://cvetna-gradina.com/"><h3>Семена</h3></a>
+			</li>
+			<li>
+				
+				<div class="circle type2">
+				
+				</div>
+				
+				<a href="http://keria.bg/"><h3>Разсад</h3></a>
+			</li>
+			</ul>
+			<ul class="circle-products-second-line">
+			<li>
+				<div class="circle type3">
+					
+				</div>
+				<a href="https://www.bosch-garden.com"><h3>Градинско оборудване</h3></a>
+			</li>
+			<li>
+				<div class="circle type4">
+					
+				</div>
+				<a href="http://sofiagardens.com/"><h3>Консултанти</h3></a>
+			</li>
+		</ul>
+		<nav id="second-section-nav">
+		<ul>
+			<li><a href="#first">Нашата история</a></li>
+			<li><a href="#second">Услуги & Консумативи</a></li>
+			<li><a href="#tird">Партньори</a></li>
+			<li><a href="#fourth">Контакти</a></li>
+		</ul>
+	</nav>
+	</div>
+</section>
+
+<section id="tird" class="partners">
+	<div class="partners-left-vertical">
+		<h1>Партньори</h1>
+		<nav id="third-section-nav">
+		<ul>
+			<li><a href="#first">Нашата история</a></li>
+			<li><a href="#second">Услуги & Консумативи</a></li>
+			<li><a href="#tird">Партньори</a></li>
+			<li><a href="#fourth">Контакти</a></li>
+		</ul>
+	</nav>
+	</div>
+
+	<div class="partners-right-vertical">
+	<div class="list-partners">
+			 <a href="http://www.gardendesign.com/"><img src="gardendezidn.jpeg" class="float-left-one" ></a>
+			<p>Водещо списание в областта на интериорния дизайн на градини. Над милион идеи, разлети по страниците му, са вдъхновили милиарди хора да превърнат градините си в малък земен рай. Страниците на списанието разкриват необятния свят на флората, създават усещане за божествена реалност, при това разположена в задния ти двор.
+			 </p> 
+	 		<br class="clear"><br>
+	 		<hr>
+			<a href="http://gardenpuzzle.com/"><img src="gardenpuzzle.png" class="float-left-two"></a>
+			<p>Пренесете мечтаната от вас градина в една виртуална реалност. Имате възможност да излеете въображението си на екрана и да създадете вълшебна приказка. За разлика от много бройни сайтове за симулация на реалността, <i> gardenpuzzle </i> ви предоставя възможност с един клик да се пренесете в своята бъдеща градина.</p>
+			<br class="clear"><br>
+			<hr>
+			<a href="http://www.gardena.com/"><img src="gardena.png" class="float-left-two"></a>
+			<p><i>Gardena</i> е мястото, където без молив и хартия, проектирате, оразмерявате и декорирате мечтаната от вас градина. Тук ще намерите решение на всеки ваш проблем, свързан с максималната функционалност на парчето земя, което ще се превърне в райско място. Квалифицирани консултанти и интериорни дизайнери ще допринесат за създаването на вашата божествена градина.</p>
+	</div> 
+	</div>
+</section>
+
+<section id="fourth" class="contacts">
+	<div class="contacts-left-vertical">
+		<h1>Контакти</h1>
+		<img src="post_card.jpg" class="post_card">
+		<div class="adress">
+		<h2>Адрес:</h2>
+		<p>гр.София, ул"Славянска", № 34</p>
+		<h2>Телефон:</h2>
+		<p>02/308-114</p>
+		</div>
+		<nav id="fourth-section-nav">
+		<ul>
+			<li><a href="#first">Нашата история</a></li>
+			<li><a href="#second">Услуги & Консумативи</a></li>
+			<li><a href="#tird">Партньори</a></li>
+			<li><a href="#fourth">Контакти</a></li>
+		</ul>
+	</nav>
+	</div>
+
+	<div class="contacts-right-vertical">
+		<form name="contact" method="get" class="message">
+		<h1>Свържете се с нас</h1>
+		<div class="email">
+			<span>Email:</span>
+			<input type="text" name="email" placeholder="Въведи email.." />
+		</div>
+		<div class="textarea">
+			<span>Съощбение:</span>
+			<textarea name="message" placeholder="Въведи текст..." cols="50" rows="30" ></textarea>
+		</div>
+		<div>
+			<input type="Submit"/>	
+		</div>
+		</form>
+	</div>
+</section>
+
+</div>
+</body> 
+</html>
